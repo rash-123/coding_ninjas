@@ -1,0 +1,20 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118784/offering/1381040 -->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+    char ch;
+    cin>>ch;
+    if(ch>='A' && ch<='Z'){
+        cout << 1 << endl;
+    }
+    else if(ch>='a' && ch<='z'){
+        cout<< 0 <<endl;
+    }
+    else{
+        cout<<-1<<endl;
+    }
+    return 0;
+}

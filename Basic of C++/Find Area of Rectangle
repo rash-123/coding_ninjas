@@ -1,0 +1,14 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118781/offering/1380851 -->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+     int l,b,area;
+    cin>>l>>b;
+    area = l*b;
+    cout<<area<<endl;
+    
+
+    return 0;
+}

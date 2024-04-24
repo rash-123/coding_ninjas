@@ -1,0 +1,26 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118784/offering/1381076?leftPanelTabValue=SUBMISSION -->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+    int n,rem;
+    cin>>n;
+    int even=0, odd=0;
+    while(n>0){
+    rem = n%10;
+    n = n/10;
+
+    if(rem%2==0){
+        even = even + rem;
+       
+    }
+    else {
+        odd = odd + rem;
+    }
+   }     
+    cout<<even<<" "<<odd<<endl;
+
+    return 0;
+}

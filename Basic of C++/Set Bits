@@ -1,0 +1,28 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118519/offering/1376725?leftPanelTabValue=PROBLEM -->
+
+#include <iostream>
+
+using namespace std;
+
+    //Write your countBits function here
+void countBits(int n){
+    int binary[32];
+    int i=0;
+    int sum = 0;
+    while(n>0){
+        binary[i] = n%2;
+        n = n/2;
+        i++;   
+    }
+    for(int j=i-1;j>=0;j--){
+    sum = sum + binary[j];
+    }
+    cout<<sum<<endl;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    countBits(n);
+    return 0;
+}

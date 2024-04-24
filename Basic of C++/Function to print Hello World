@@ -1,0 +1,17 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118519/offering/1376721?leftPanelTabValue=PROBLEM -->
+
+#include <iostream>
+
+using namespace std;
+
+
+//Write the print function here
+void print(){
+    cout<<"Hello World"<<endl;
+}
+
+
+int main() {
+    print();
+    return 0;
+}

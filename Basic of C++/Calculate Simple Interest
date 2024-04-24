@@ -1,0 +1,19 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118781/offering/1380854?leftPanelTabValue=PROBLEM -->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+    int Principal;
+    cin>>Principal;
+    double Rate;
+    cin>>Rate;
+    int Time;
+    cin>>Time;
+    int SimpleInterest = Principal*Rate*Time/100;
+    cout<< SimpleInterest <<endl;
+    
+
+    return 0;
+}

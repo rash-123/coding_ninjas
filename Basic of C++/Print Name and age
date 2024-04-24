@@ -1,0 +1,14 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118781/offering/1380852?leftPanelTabValue=PROBLEM -->
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+   string Name;
+    cin>>Name;
+    int Age;
+    cin>>Age;
+    cout<<"The name of the person is "<<Name<<" and the age is "<<Age<<".";
+    return 0;
+}

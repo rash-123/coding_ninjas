@@ -1,0 +1,10 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118781/offering/1380853?leftPanelTabValue=PROBLEM -->
+
+#include <utility>
+
+pair < int, int > swap(pair < int, int > swapValues) {
+    pair<int,int> result;
+    result.first = swapValues.second;
+    result.second = swapValues.first;
+    return result;
+}

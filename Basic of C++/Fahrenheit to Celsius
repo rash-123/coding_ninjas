@@ -1,0 +1,19 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118784/offering/1381074?leftPanelTabValue=PROBLEM -->
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+  int start, end, steps, celsius;
+    cin>>start>>end>>steps;
+    int i;
+    for(i=start;i<end;i+=steps){
+        celsius = (i-32)*5/9;
+         cout<<i<<" "<<celsius<<endl;
+    }
+
+
+    return 0;
+}

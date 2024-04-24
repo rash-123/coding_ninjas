@@ -1,0 +1,21 @@
+<!-- https://www.naukri.com/code360/guided-paths/basics-of-c/content/118784/offering/1381078?leftPanelTabValue=PROBLEM -->
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    //Write your code here
+    int x,n;
+    cin>>x>>n;
+    if(x==0 && n==0){
+        cout<<1;
+    }
+    else{
+    
+        int power = pow(x,n);
+        cout<<power;
+    }
+
+    return 0;
+}
